@@ -5,4 +5,4 @@
 4. In the datasets, the "*mave*" files are the fluctuation part of the flow field and the "*ave*" files are the mean field which is averaged along the homogeneous x and z directions, the t direction, and amoung the 20 groups. Hence, the shape of the "*ave*" files is 1x1x1x33x1x4. Note that the "*ave*" files are only needed in the testing process when the predicted fluctuations are added back to the mean field. The reader is referred to the following paper for details:
 https://arxiv.org/abs/2403.03051.  
 6. The txt files contain the velocity statistics for fDNS and the corresponding testing results for IUFNO. There are 5 columns in the txt files: column 1 is the y<sup>+</sup> values, column 2 is $&lt u &gt$<sup>+</sup>, column 3 is u'<sup>+</sup><sub>rms</sub>, column 4 is v'<sup>+</sup><sub>rms</sub> and column 5 is w'<sup>+</sup><sub>rms</sub>.
-7. For further details and questions about this code, please contact: wangyp@sustech.edu.cn
+7. For further details and questions about this code, please contact: wangyp@sustech.edu.cn.
